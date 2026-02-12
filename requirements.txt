@@ -1,0 +1,25 @@
+# Port Vehicle Detection Optimization - Requirements
+
+# Core dependencies
+numpy>=1.24.0
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+onnxruntime>=1.16.0
+
+# Transformers for DETR models
+transformers>=4.30.0
+accelerate>=0.20.0
+torch>=2.0.0
+
+# For data handling
+pyyaml>=6.0
+pandas>=2.0.0
+
+# For annotation (optional, makes tooling easier)
+# labelme2coco  # For converting labelme annotations if needed
+
+# For visualization (optional)
+matplotlib>=3.7.0
+
+# For additional model support
+# supervision  # For tracking utilities

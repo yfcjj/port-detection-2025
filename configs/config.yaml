@@ -1,0 +1,88 @@
+# Port Vehicle Detection Optimization Project Configuration
+
+# Project paths
+project:
+  root_dir: "/data/ljw/ljw/port_detection_optimization"
+  data_dir: "/data/ljw/ljw/port_detection_optimization/data"
+  models_dir: "/data/ljw/ljw/port_detection_optimization/data/models"
+  annotations_dir: "/data/ljw/ljw/port_detection_optimization/data/annotations"
+  results_dir: "/data/ljw/ljw/port_detection_optimization/results"
+  src_dir: "/data/ljw/ljw/port_detection_optimization/src"
+
+# Test video path
+test_video: "/data/ljw/ljw/宁波大榭港/监控视频/2N测试右侧低_20251224111945/2N测试右侧低_20251224010000-20251224015959_1.mp4"
+
+# SLAM data path
+slam_data: "/data/ljw/ljw/宁波大榭港/宁波大榭港 Slam 采集数据 2025-04-03/大榭202504slam数据/大榭港2N-4.3日采集"
+
+# Target metrics
+target_metrics:
+  tracking_accuracy: 0.99  # 99% tracking accuracy
+  lateral_error_m: 0.5     # 0.5m lateral positioning error
+  longitudinal_error_m: 6.0  # 6m longitudinal positioning error
+  refresh_rate_hz: 1.0     # Minimum 1Hz refresh rate
+
+# Detection model settings
+models:
+  # YOLO models (CNN-based, fast)
+  yolo:
+    base_model: "yolo11x.pt"  # or "yolo11l.pt", "yolov8x.pt"
+    onnx_model: "yolo11l.onnx"
+    conf_threshold: 0.3
+    iou_threshold: 0.45
+    max_det: 300
+
+  # DETR models (Transformer-based, slower but potentially more accurate)
+  detr:
+    model_name: "facebook/detr-resnet-101"  # or "rt-detr", "detr-resnet-50"
+    conf_threshold: 0.5
+    iou_threshold: 0.5
+
+# Tracking settings
+tracking:
+  tracker_type: "bytetrack"  # bytetrack, botsort, strongsort
+  track_high_thresh: 0.5
+  track_low_thresh: 0.1
+  new_track_thresh: 0.6
+  track_buffer: 30
+  match_thresh: 0.8
+
+# Evaluation settings
+evaluation:
+  iou_thresholds: [0.5, 0.75]  # For mAP calculation
+  compute_map: true
+  compute_precision: true
+  compute_recall: true
+  compute_f1: true
+  compute_id_metrics: true  # IDF1, IDP, IDR
+
+# Training/Fine-tuning settings
+training:
+  epochs: 100
+  batch_size: 16
+  image_size: 640
+  learning_rate: 0.01
+  device: "cuda"  # cuda or cpu
+  workers: 8
+  patience: 20  # Early stopping patience
+
+# Annotation settings
+annotation:
+  format: "yolo"  # yolo format: class_id x_center y_center width height (normalized)
+  include_track_id: true
+  sampling_rate: 5  # Annotate every N frames
+
+# Data augmentation
+augmentation:
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  degrees: 0.0
+  translate: 0.1
+  scale: 0.5
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.5
+  mosaic: 1.0
+  mixup: 0.0

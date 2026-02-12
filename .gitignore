@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and models (large files)
+data/models/*.pt
+data/models/*.onnx
+data/test_set/*.mp4
+data/test_set/*.avi
+
+# Annotations (keep JSON, ignore per-frame txt and sample images)
+data/annotations/frame_*.txt
+data/annotations/sample_*.jpg
+
+# Results
+results/*.json
+results/*.csv
+results/*/output_bev.mp4
+results/*/output_cctv.mp4
+
+# YOLO training artifacts
+runs/
+*.ckpt
+*.weights
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
