@@ -1,0 +1,760 @@
+{
+  "video_path": "data/test_set/slam_test_video.mp4",
+  "class_names": [
+    "vehicle"
+  ],
+  "total_frames": 4850,
+  "annotated_frames": 91,
+  "frames": {
+    "0": {
+      "frame_id": 0,
+      "annotations": [
+        {
+          "x_center": 0.18383871018886566,
+          "y_center": 0.3730800449848175,
+          "width": 0.05170399323105812,
+          "height": 0.1030280813574791,
+          "class_id": 0,
+          "track_id": 1
+        }
+      ]
+    },
+    "10": {
+      "frame_id": 10,
+      "annotations": [
+        {
+          "x_center": 0.18554025888442993,
+          "y_center": 0.3899933695793152,
+          "width": 0.08362143486738205,
+          "height": 0.11318206787109375,
+          "class_id": 0,
+          "track_id": 2
+        }
+      ]
+    },
+    "20": {
+      "frame_id": 20,
+      "annotations": [
+        {
+          "x_center": 0.17109495401382446,
+          "y_center": 0.4122302234172821,
+          "width": 0.0907873809337616,
+          "height": 0.1230655238032341,
+          "class_id": 0,
+          "track_id": 3
+        }
+      ]
+    },
+    "30": {
+      "frame_id": 30,
+      "annotations": [
+        {
+          "x_center": 0.15737934410572052,
+          "y_center": 0.4290412664413452,
+          "width": 0.09749875217676163,
+          "height": 0.13549089431762695,
+          "class_id": 0,
+          "track_id": 4
+        }
+      ]
+    },
+    "40": {
+      "frame_id": 40,
+      "annotations": [
+        {
+          "x_center": 0.14135749638080597,
+          "y_center": 0.45875656604766846,
+          "width": 0.1039632260799408,
+          "height": 0.14015378057956696,
+          "class_id": 0,
+          "track_id": 5
+        },
+        {
+          "x_center": 0.16420650482177734,
+          "y_center": 0.4267220199108124,
+          "width": 0.057853080332279205,
+          "height": 0.0787225216627121,
+          "class_id": 0,
+          "track_id": 6
+        }
+      ]
+    },
+    "50": {
+      "frame_id": 50,
+      "annotations": [
+        {
+          "x_center": 0.12478640675544739,
+          "y_center": 0.4848128855228424,
+          "width": 0.1104743555188179,
+          "height": 0.1546892523765564,
+          "class_id": 0,
+          "track_id": 7
+        }
+      ]
+    },
+    "60": {
+      "frame_id": 60,
+      "annotations": [
+        {
+          "x_center": 0.10522784292697906,
+          "y_center": 0.51774662733078,
+          "width": 0.12104430049657822,
+          "height": 0.1702989935874939,
+          "class_id": 0,
+          "track_id": 8
+        }
+      ]
+    },
+    "70": {
+      "frame_id": 70,
+      "annotations": [
+        {
+          "x_center": 0.08429094403982162,
+          "y_center": 0.549422562122345,
+          "width": 0.1321820467710495,
+          "height": 0.18567338585853577,
+          "class_id": 0,
+          "track_id": 9
+        }
+      ]
+    },
+    "80": {
+      "frame_id": 80,
+      "annotations": [
+        {
+          "x_center": 0.06619692593812943,
+          "y_center": 0.5894138813018799,
+          "width": 0.13238389790058136,
+          "height": 0.20590859651565552,
+          "class_id": 0,
+          "track_id": 10
+        }
+      ]
+    },
+    "90": {
+      "frame_id": 90,
+      "annotations": []
+    },
+    "120": {
+      "frame_id": 120,
+      "annotations": []
+    },
+    "250": {
+      "frame_id": 250,
+      "annotations": [
+        {
+          "x_center": 0.02600552700459957,
+          "y_center": 0.9437037706375122,
+          "width": 0.05149098113179207,
+          "height": 0.1095794141292572,
+          "class_id": 0,
+          "track_id": 11
+        }
+      ]
+    },
+    "270": {
+      "frame_id": 270,
+      "annotations": [
+        {
+          "x_center": 0.0624619759619236,
+          "y_center": 0.857444167137146,
+          "width": 0.12388034909963608,
+          "height": 0.2719586491584778,
+          "class_id": 0,
+          "track_id": 12
+        }
+      ]
+    },
+    "280": {
+      "frame_id": 280,
+      "annotations": [
+        {
+          "x_center": 0.07698896527290344,
+          "y_center": 0.8232307434082031,
+          "width": 0.15327335894107819,
+          "height": 0.3388994634151459,
+          "class_id": 0,
+          "track_id": 13
+        }
+      ]
+    },
+    "290": {
+      "frame_id": 290,
+      "annotations": []
+    },
+    "300": {
+      "frame_id": 300,
+      "annotations": []
+    },
+    "310": {
+      "frame_id": 310,
+      "annotations": []
+    },
+    "320": {
+      "frame_id": 320,
+      "annotations": []
+    },
+    "330": {
+      "frame_id": 330,
+      "annotations": []
+    },
+    "340": {
+      "frame_id": 340,
+      "annotations": []
+    },
+    "350": {
+      "frame_id": 350,
+      "annotations": []
+    },
+    "360": {
+      "frame_id": 360,
+      "annotations": []
+    },
+    "370": {
+      "frame_id": 370,
+      "annotations": []
+    },
+    "380": {
+      "frame_id": 380,
+      "annotations": [
+        {
+          "x_center": 0.24970073997974396,
+          "y_center": 0.425593763589859,
+          "width": 0.08446896821260452,
+          "height": 0.19047009944915771,
+          "class_id": 0,
+          "track_id": 14
+        }
+      ]
+    },
+    "390": {
+      "frame_id": 390,
+      "annotations": []
+    },
+    "400": {
+      "frame_id": 400,
+      "annotations": [
+        {
+          "x_center": 0.2697705030441284,
+          "y_center": 0.38113367557525635,
+          "width": 0.07428013533353806,
+          "height": 0.1639786958694458,
+          "class_id": 0,
+          "track_id": 15
+        }
+      ]
+    },
+    "410": {
+      "frame_id": 410,
+      "annotations": []
+    },
+    "420": {
+      "frame_id": 420,
+      "annotations": [
+        {
+          "x_center": 0.28684940934181213,
+          "y_center": 0.344381183385849,
+          "width": 0.06716551631689072,
+          "height": 0.1470288336277008,
+          "class_id": 0,
+          "track_id": 16
+        }
+      ]
+    },
+    "430": {
+      "frame_id": 430,
+      "annotations": [
+        {
+          "x_center": 0.29458481073379517,
+          "y_center": 0.32907041907310486,
+          "width": 0.06440499424934387,
+          "height": 0.1394888162612915,
+          "class_id": 0,
+          "track_id": 17
+        }
+      ]
+    },
+    "440": {
+      "frame_id": 440,
+      "annotations": []
+    },
+    "450": {
+      "frame_id": 450,
+      "annotations": [
+        {
+          "x_center": 0.30905213952064514,
+          "y_center": 0.30051809549331665,
+          "width": 0.05900459364056587,
+          "height": 0.1258622407913208,
+          "class_id": 0,
+          "track_id": 18
+        }
+      ]
+    },
+    "460": {
+      "frame_id": 460,
+      "annotations": []
+    },
+    "470": {
+      "frame_id": 470,
+      "annotations": []
+    },
+    "480": {
+      "frame_id": 480,
+      "annotations": []
+    },
+    "490": {
+      "frame_id": 490,
+      "annotations": [
+        {
+          "x_center": 0.3325609862804413,
+          "y_center": 0.254338800907135,
+          "width": 0.047818977385759354,
+          "height": 0.1020965427160263,
+          "class_id": 0,
+          "track_id": 19
+        }
+      ]
+    },
+    "500": {
+      "frame_id": 500,
+      "annotations": [
+        {
+          "x_center": 0.33750250935554504,
+          "y_center": 0.2445816546678543,
+          "width": 0.045052528381347656,
+          "height": 0.0963788628578186,
+          "class_id": 0,
+          "track_id": 20
+        }
+      ]
+    },
+    "510": {
+      "frame_id": 510,
+      "annotations": []
+    },
+    "520": {
+      "frame_id": 520,
+      "annotations": []
+    },
+    "530": {
+      "frame_id": 530,
+      "annotations": []
+    },
+    "540": {
+      "frame_id": 540,
+      "annotations": []
+    },
+    "550": {
+      "frame_id": 550,
+      "annotations": []
+    },
+    "560": {
+      "frame_id": 560,
+      "annotations": []
+    },
+    "570": {
+      "frame_id": 570,
+      "annotations": []
+    },
+    "580": {
+      "frame_id": 580,
+      "annotations": []
+    },
+    "590": {
+      "frame_id": 590,
+      "annotations": []
+    },
+    "600": {
+      "frame_id": 600,
+      "annotations": []
+    },
+    "610": {
+      "frame_id": 610,
+      "annotations": []
+    },
+    "620": {
+      "frame_id": 620,
+      "annotations": []
+    },
+    "640": {
+      "frame_id": 640,
+      "annotations": []
+    },
+    "650": {
+      "frame_id": 650,
+      "annotations": []
+    },
+    "660": {
+      "frame_id": 660,
+      "annotations": []
+    },
+    "680": {
+      "frame_id": 680,
+      "annotations": []
+    },
+    "690": {
+      "frame_id": 690,
+      "annotations": []
+    },
+    "700": {
+      "frame_id": 700,
+      "annotations": []
+    },
+    "710": {
+      "frame_id": 710,
+      "annotations": []
+    },
+    "720": {
+      "frame_id": 720,
+      "annotations": []
+    },
+    "740": {
+      "frame_id": 740,
+      "annotations": []
+    },
+    "1050": {
+      "frame_id": 1050,
+      "annotations": []
+    },
+    "1060": {
+      "frame_id": 1060,
+      "annotations": []
+    },
+    "1070": {
+      "frame_id": 1070,
+      "annotations": []
+    },
+    "1080": {
+      "frame_id": 1080,
+      "annotations": []
+    },
+    "1090": {
+      "frame_id": 1090,
+      "annotations": []
+    },
+    "1200": {
+      "frame_id": 1200,
+      "annotations": [
+        {
+          "x_center": 0.03318079560995102,
+          "y_center": 0.9682440757751465,
+          "width": 0.06626219302415848,
+          "height": 0.0623432882130146,
+          "class_id": 0,
+          "track_id": 21
+        }
+      ]
+    },
+    "1210": {
+      "frame_id": 1210,
+      "annotations": []
+    },
+    "1220": {
+      "frame_id": 1220,
+      "annotations": []
+    },
+    "1230": {
+      "frame_id": 1230,
+      "annotations": []
+    },
+    "1240": {
+      "frame_id": 1240,
+      "annotations": []
+    },
+    "1250": {
+      "frame_id": 1250,
+      "annotations": []
+    },
+    "1260": {
+      "frame_id": 1260,
+      "annotations": [
+        {
+          "x_center": 0.10379895567893982,
+          "y_center": 0.792119562625885,
+          "width": 0.18423444032669067,
+          "height": 0.4013054668903351,
+          "class_id": 0,
+          "track_id": 22
+        }
+      ]
+    },
+    "1270": {
+      "frame_id": 1270,
+      "annotations": [
+        {
+          "x_center": 0.12468619644641876,
+          "y_center": 0.7509750723838806,
+          "width": 0.1661415994167328,
+          "height": 0.3821733295917511,
+          "class_id": 0,
+          "track_id": 23
+        }
+      ]
+    },
+    "1280": {
+      "frame_id": 1280,
+      "annotations": [
+        {
+          "x_center": 0.14500018954277039,
+          "y_center": 0.6978710889816284,
+          "width": 0.14991655945777893,
+          "height": 0.3464817702770233,
+          "class_id": 0,
+          "track_id": 24
+        }
+      ]
+    },
+    "1290": {
+      "frame_id": 1290,
+      "annotations": [
+        {
+          "x_center": 0.16138911247253418,
+          "y_center": 0.6556042432785034,
+          "width": 0.1369667649269104,
+          "height": 0.3210597336292267,
+          "class_id": 0,
+          "track_id": 25
+        }
+      ]
+    },
+    "1300": {
+      "frame_id": 1300,
+      "annotations": [
+        {
+          "x_center": 0.17738793790340424,
+          "y_center": 0.6138647794723511,
+          "width": 0.12670549750328064,
+          "height": 0.29638683795928955,
+          "class_id": 0,
+          "track_id": 26
+        }
+      ]
+    },
+    "1310": {
+      "frame_id": 1310,
+      "annotations": [
+        {
+          "x_center": 0.18964767456054688,
+          "y_center": 0.5797222256660461,
+          "width": 0.11561671644449234,
+          "height": 0.2745792269706726,
+          "class_id": 0,
+          "track_id": 27
+        }
+      ]
+    },
+    "1320": {
+      "frame_id": 1320,
+      "annotations": [
+        {
+          "x_center": 0.20291048288345337,
+          "y_center": 0.5456711649894714,
+          "width": 0.10865858197212219,
+          "height": 0.2530265748500824,
+          "class_id": 0,
+          "track_id": 28
+        }
+      ]
+    },
+    "1330": {
+      "frame_id": 1330,
+      "annotations": []
+    },
+    "1340": {
+      "frame_id": 1340,
+      "annotations": [
+        {
+          "x_center": 0.22586463391780853,
+          "y_center": 0.49042800068855286,
+          "width": 0.09807667881250381,
+          "height": 0.2215503603219986,
+          "class_id": 0,
+          "track_id": 29
+        }
+      ]
+    },
+    "1350": {
+      "frame_id": 1350,
+      "annotations": [
+        {
+          "x_center": 0.23541125655174255,
+          "y_center": 0.4677802324295044,
+          "width": 0.09107665717601776,
+          "height": 0.2097962498664856,
+          "class_id": 0,
+          "track_id": 30
+        }
+      ]
+    },
+    "1360": {
+      "frame_id": 1360,
+      "annotations": [
+        {
+          "x_center": 0.2461661547422409,
+          "y_center": 0.4448826014995575,
+          "width": 0.08816894143819809,
+          "height": 0.1973911076784134,
+          "class_id": 0,
+          "track_id": 31
+        }
+      ]
+    },
+    "1370": {
+      "frame_id": 1370,
+      "annotations": [
+        {
+          "x_center": 0.2548052966594696,
+          "y_center": 0.4247150421142578,
+          "width": 0.08435606956481934,
+          "height": 0.1863047331571579,
+          "class_id": 0,
+          "track_id": 32
+        }
+      ]
+    },
+    "1380": {
+      "frame_id": 1380,
+      "annotations": [
+        {
+          "x_center": 0.2638148069381714,
+          "y_center": 0.4048989713191986,
+          "width": 0.0806865245103836,
+          "height": 0.176338329911232,
+          "class_id": 0,
+          "track_id": 33
+        }
+      ]
+    },
+    "1390": {
+      "frame_id": 1390,
+      "annotations": [
+        {
+          "x_center": 0.27161091566085815,
+          "y_center": 0.3894462287425995,
+          "width": 0.07580838352441788,
+          "height": 0.16798268258571625,
+          "class_id": 0,
+          "track_id": 34
+        }
+      ]
+    },
+    "1400": {
+      "frame_id": 1400,
+      "annotations": [
+        {
+          "x_center": 0.2799501121044159,
+          "y_center": 0.3724740445613861,
+          "width": 0.07215652614831924,
+          "height": 0.15811361372470856,
+          "class_id": 0,
+          "track_id": 35
+        }
+      ]
+    },
+    "1410": {
+      "frame_id": 1410,
+      "annotations": [
+        {
+          "x_center": 0.2867629826068878,
+          "y_center": 0.35843032598495483,
+          "width": 0.06806658208370209,
+          "height": 0.15067410469055176,
+          "class_id": 0,
+          "track_id": 36
+        }
+      ]
+    },
+    "1420": {
+      "frame_id": 1420,
+      "annotations": [
+        {
+          "x_center": 0.2939821481704712,
+          "y_center": 0.3439597189426422,
+          "width": 0.06485584378242493,
+          "height": 0.1445915848016739,
+          "class_id": 0,
+          "track_id": 37
+        }
+      ]
+    },
+    "1430": {
+      "frame_id": 1430,
+      "annotations": [
+        {
+          "x_center": 0.2987228035926819,
+          "y_center": 0.3313961923122406,
+          "width": 0.059638723731040955,
+          "height": 0.1379537284374237,
+          "class_id": 0,
+          "track_id": 38
+        }
+      ]
+    },
+    "1440": {
+      "frame_id": 1440,
+      "annotations": [
+        {
+          "x_center": 0.3050963580608368,
+          "y_center": 0.3183335065841675,
+          "width": 0.057092539966106415,
+          "height": 0.1341714859008789,
+          "class_id": 0,
+          "track_id": 39
+        }
+      ]
+    },
+    "1450": {
+      "frame_id": 1450,
+      "annotations": [
+        {
+          "x_center": 0.31066688895225525,
+          "y_center": 0.30804771184921265,
+          "width": 0.05566596984863281,
+          "height": 0.1263093501329422,
+          "class_id": 0,
+          "track_id": 40
+        }
+      ]
+    },
+    "1460": {
+      "frame_id": 1460,
+      "annotations": [
+        {
+          "x_center": 0.31536543369293213,
+          "y_center": 0.2972913384437561,
+          "width": 0.05101095885038376,
+          "height": 0.1223854199051857,
+          "class_id": 0,
+          "track_id": 41
+        }
+      ]
+    },
+    "1470": {
+      "frame_id": 1470,
+      "annotations": [
+        {
+          "x_center": 0.31914132833480835,
+          "y_center": 0.2874338626861572,
+          "width": 0.048807621002197266,
+          "height": 0.11781106144189835,
+          "class_id": 0,
+          "track_id": 42
+        }
+      ]
+    },
+    "1490": {
+      "frame_id": 1490,
+      "annotations": [
+        {
+          "x_center": 0.32834917306900024,
+          "y_center": 0.26819634437561035,
+          "width": 0.045884959399700165,
+          "height": 0.1069444864988327,
+          "class_id": 0,
+          "track_id": 43
+        }
+      ]
+    }
+  }
+}
