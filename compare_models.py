@@ -185,7 +185,7 @@ def main():
                        default='/data/ljw/ljw/port_detection_optimization/data/annotations',
                        help='Path to annotations directory')
     parser.add_argument('--output', type=str,
-                       default='/data/ljw/ljw/port_detection_optimization/results/comparison',
+                       default='/data/ljw/ljw/port_detection_optimization/results/compare',
                        help='Output directory')
     parser.add_argument('--conf', type=float, default=0.3,
                        help='Confidence threshold')
