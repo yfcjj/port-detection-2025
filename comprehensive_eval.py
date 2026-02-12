@@ -261,6 +261,9 @@ def main():
     output_dir = Path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # Create evaluator first (before loading model)
+    evaluator = ComprehensiveEvaluator()
+
     # Load detector
     print(f"Loading model: {args.model}")
     detector = YOLODetector(
@@ -269,9 +272,6 @@ def main():
         use_onnx=args.model.endswith('.onnx')
     )
     detector.load_model()
-
-    # Create evaluator
-    evaluator = ComprehensiveEvaluator()
 
     # Run evaluation
     metrics = evaluator.evaluate_video(
